@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="skippigoat test suite">
+  <test name="system module test">
+    <classes>
+      <class name="skippigoat.system.TestShell" />
+      <class name="skippigoat.system.TestResourceGetter" />
+    </classes>
+  </test>
+  <test name="service module test">
+    <classes>
+    </classes>
+  </test>
+  <test name="desktop module test">
+    <classes>
+    </classes>
+  </test>
+</suite>
